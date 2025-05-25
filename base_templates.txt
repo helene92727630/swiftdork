@@ -1,0 +1,27 @@
+inurl:{target} {type}
+intitle:{target} {admin}
+intext:"{vulnerability}" site:{domain}
+{target} filetype:{type}
+"index of" {target}
+intitle:"{target} password"
+inurl:"{target}" country:{country}
+{target} {year}
+inurl:"{target}/{admin}"
+site:{domain} intitle:"{target} control panel"
+inurl:{target}/wp-content/uploads/ filetype:{type}
+"backup of {target}" filetype:zip
+"private key" {target}
+{server} config filetype:log
+"confidential" {target} site:{domain}
+inurl:*/{target}/admin/login.php
+intitle:"{target} management"
+intext:"{common_word}" site:{domain}
+intitle:"{location} {common_word}"
+inurl:{location}/{common_word}
+"{common_word}_backup" filetype:sql
+"{english_word} admin panel"
+intitle:"{english_word} {vulnerability}"
+inurl:{english_word}.log
+site:{domain} filetype:pdf "{english_word} report"
+"password for {english_word}"
+intitle:"{english_word}"
